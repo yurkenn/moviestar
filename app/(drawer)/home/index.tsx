@@ -1,12 +1,11 @@
 import { useQuery } from '@tanstack/react-query';
-import { Link } from 'expo-router';
 import React, { useState } from 'react';
-import { ImageBackground, StyleSheet, Text, View } from 'react-native';
-import { Card, Input, Main, ScrollView, Spinner, YStack } from 'tamagui';
+import { ImageBackground } from 'react-native';
+import { Input, Main, ScrollView, Spinner, YStack } from 'tamagui';
 
+import MovieCard from '@/components/MovieCard';
 import { getSearchResults, getTrending } from '@/services/api';
 import { Container, Subtitle, Title } from '@/tamagui.config';
-import MovieCard from '@/components/MovieCard';
 import useDebounce from '@/utils/useDebounce';
 
 const Page = () => {

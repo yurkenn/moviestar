@@ -3,7 +3,6 @@
     "name": "moviestart",
     "slug": "moviestart",
     "version": "1.0.0",
-
     "scheme": "moviestart",
     "web": {
       "bundler": "metro",
@@ -13,10 +12,8 @@
     "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true,
-
       "tsconfigPaths": true
     },
-
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -33,7 +30,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.moviestart"
     }
   }
 }

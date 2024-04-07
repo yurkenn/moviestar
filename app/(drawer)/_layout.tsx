@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { colorTokens } from '@tamagui/themes';
 import { Drawer } from 'expo-router/drawer';
-import { StyleSheet, Text, View } from 'react-native';
+
 const Layout = () => {
   return (
     <Drawer
@@ -33,5 +33,3 @@ const Layout = () => {
 };
 
 export default Layout;
-
-const styles = StyleSheet.create({});

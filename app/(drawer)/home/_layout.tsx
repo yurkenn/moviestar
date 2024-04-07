@@ -1,8 +1,10 @@
 import { DrawerToggleButton } from '@react-navigation/drawer';
-import { colorTokens } from '@tamagui/themes';
 import { Stack } from 'expo-router';
-import { StyleSheet, Text, View } from 'react-native';
 import { useTheme } from 'tamagui';
+
+export const unstable_settings = {
+  initialRouteName: 'index',
+};
 const Layout = () => {
   const theme = useTheme();
 
@@ -41,5 +43,3 @@ const Layout = () => {
 };
 
 export default Layout;
-
-const styles = StyleSheet.create({});
